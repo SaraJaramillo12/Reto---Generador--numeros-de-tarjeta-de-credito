@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Generador de Números de Tarjeta de Crédito</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generador de Números de Tarjeta de Crédito</h1>
+      <label for="cardType">Seleccione el tipo de tarjeta:</label>
+      <select id="cardType">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="amex">Amex</option>
+      </select>
+      <button onclick="generateCardNumber()">Generar Número</button>
+      <div id="cardNumber"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
